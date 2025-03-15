@@ -1,0 +1,90 @@
+[
+    {
+        "id": "1",
+        "name": "The Adventures of Tom Sawyer",
+        "title": "Mark Twain",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Good Omens",
+        "title": "Terry Pratchett & Neil Gaiman",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Dracula",
+        "title": "Bram Stoker",
+        "price": 330,
+        "category": "Horror",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": "4",
+        "name": "The Silence of the Lambs",
+        "title": "Thomas Harris",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": "5",
+        "name": "The Hobbit",
+        "title": "J.R.R. Tolkien",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Pride and Prejudice",
+        "title": "Jane Austen",
+        "price": 100,
+        "category": "Love",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": "7",
+        "name": "The Call of the Wild",
+        "title": "Jack London",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Dune",
+        "title": "Frank Herbert",
+        "price": 250,
+        "category": "Sci-Fi",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Sapiens: A Brief History of Humankind",
+        "title": "Yuval Noah Harari",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": "10",
+        "name": "The Bhagavad Gita",
+        "title": "Vyasa",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Salt, Fat, Acid, Heat",
+        "title": "Samin Nosrat",
+        "price": 200,
+        "category": "Food",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg"
+    }
+]
