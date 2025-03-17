@@ -32,14 +32,14 @@ try {
 app.use("/book", bookRoute);
 app.use("/user", userRoute);
 
-// Serve frontend static files in production
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '../Frontend/dist')));
-  
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../Frontend/dist/index.html'));
-  });
-}
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, '../Frontend/dist')));
+
+// The "catch all" handler: for any request that doesn't
+// match one above, send back React's index.html file.
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../Frontend/dist/index.html'));
+});
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
