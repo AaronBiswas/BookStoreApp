@@ -22,7 +22,7 @@ const from= location.state?.from?.pathname || "/";
       password: data.password,
     };
     await axios
-      .post("http://localhost:4000/user/signup", userInfo)
+      .post(`${API_BASE_URL}/user/signup`, userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
