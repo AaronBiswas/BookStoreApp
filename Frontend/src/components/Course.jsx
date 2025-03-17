@@ -2,12 +2,14 @@ import React, { useEffect, useState } from 'react'
 import Cards from './Cards'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
+import API_BASE_URL from '../config'
+
 const Course = () => {
 const [book,setbook]=useState([]);
 useEffect(()=>{
   const getBook=async()=>{
     try {
-      const res=await axios.get("http://localhost:4001/book");
+      const res=await axios.get(`${API_BASE_URL}/book`);
       console.log(res.data);
       setbook(res.data)
     } catch (error) {
