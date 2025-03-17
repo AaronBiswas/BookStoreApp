@@ -17,7 +17,7 @@ const Banner = () => {
             </label>
             <div className            = "validator-hint hidden">Enter valid email address</div>
         </div>
-        <button className="btn btn-secondary">Secondary</button>
+        <button className="btn btn-secondary">Get Started</button>
         </div>
         <div className    = "order-1 w-full md:w-1/2 flex items-center justify-center">
             <img src={banner} className="w-84 h-84 rounded-lg shadow-lg"></img>

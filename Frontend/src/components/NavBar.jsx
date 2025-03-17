@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Login from "./Login.jsx";
+import Logout from "./Logout.jsx";
+import { useAuth } from "../Context/AuthProvider.jsx";
 
 const Navbar = () => {
+  const[AuthUser,setAuthUser]=useAuth();
   const [sticky, setsticky] = useState(false);
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
   useEffect(() => {
@@ -42,7 +45,7 @@ const Navbar = () => {
         <a href="/Contact">Contact</a>
       </li>
       <li>
-        <a>About</a>
+        <a href="/About">About</a>
       </li>
     </>
   );
@@ -148,13 +151,16 @@ const Navbar = () => {
                 </svg>
               </label>
             </div>
-            <div>
+
+            {
+              AuthUser? <Logout /> :   <div>
               <a className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer"
               onClick={()=>document.getElementById("my_modal_3").showModal()}>
                 Login
               </a>
               <Login />
             </div>
+            }
           </div>
         </div>
       </div>
